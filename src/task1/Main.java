@@ -2,13 +2,14 @@ package task1;
 
 public class Main {
     public static void main(String[] args) {
-        Book book1 = new Book("Михаил Ефимович Литвак ", "Психологическое айкидо ", 2011);
-        Book book2 = new Book("Александр Мелентьевич Волков ", "Волшебник Изумрудного города ", 2025);
-        System.out.println(book1.getNameAuthor()+book1.getNameBook()+book1.getYearCreate());
-        System.out.println(book2.getNameAuthor()+book2.getNameBook()+book2.getYearCreate());
-        book2.setYearCreate(1939);
-        System.out.println(book2.getNameAuthor()+book2.getNameBook()+book2.getYearCreate());
-
+        Author authorBook1 = new Author("Пушкин ", "Александр Сергеевич ");
+        Book book1 = new Book("Капитанская дочка ",1836);
+        System.out.println(authorBook1.getFirstNameAuthor()+authorBook1.getNameAuthor()+book1.getNameBook()+book1.getYearCreate());
+        Author authorBook2 = new Author("Литвак ", "Михаил Ефимович ");
+        Book book2 = new Book("Психологическое айкидо ", 2025);
+        System.out.println(authorBook2.getFirstNameAuthor()+authorBook2.getNameAuthor()+book2.getNameBook()+book2.getYearCreate());
+        book2.setYearCreate(2011);
+        System.out.println(authorBook2.getFirstNameAuthor()+authorBook2.getNameAuthor()+book2.getNameBook()+ book2.getYearCreate());
     }
 
 }
