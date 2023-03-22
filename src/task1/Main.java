@@ -8,6 +8,7 @@ public class Main {
         System.out.println(book2.getFirstNameAuthor()+book1.getNameAuthor()+ book2.getNameBook()+ book2.getYearCreate());
         book2.setYearCreate(2011);
         System.out.println(book2.getFirstNameAuthor()+book1.getNameAuthor()+ book2.getNameBook()+ book2.getYearCreate());
+
     }
 
 }
