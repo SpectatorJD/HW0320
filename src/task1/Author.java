@@ -8,13 +8,11 @@ public class Author {
     public Author (String firstNameAuthor, String nameAuthor) {
         this.firstNameAuthor = firstNameAuthor;
         this.nameAuthor = nameAuthor;
-    }
-
-    public String getFirstNameAuthor() {
-        return firstNameAuthor;
-    }
-
-    public String getNameAuthor() {
-        return nameAuthor;
-    }
+}
+        public String getFirstNameAuthor (){
+        return this.firstNameAuthor;
+        }
+        public String getNameAuthor(){
+        return this.nameAuthor;
+        }
 }
