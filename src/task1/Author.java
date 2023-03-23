@@ -1,6 +1,6 @@
 package task1;
 
-public class Author {
+public class Author  {
     private final String firstNameAuthor;
     private final String nameAuthor;
 
@@ -15,4 +15,5 @@ public class Author {
         public String getNameAuthor(){
         return this.nameAuthor;
         }
+
 }

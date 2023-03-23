@@ -1,8 +1,8 @@
 package task1;
 
-import task1.Author;
 
-public class Book {
+
+public class Book  {
 
     private final String nameBook;
     private int yearCreate;
